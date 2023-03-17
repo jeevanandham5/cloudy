@@ -1,38 +1,321 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+/*css for header as navbar*/
+
+body{
+    overflow: hidden;
+    
+}
+.header{
+    background-color:#fff;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    margin: 10px;
+    color: #000000;
+    max-width: 100%;
+    font-family: 'Itim', cursive;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: -8px;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 5px;
+}
+.logo:hover{
+    background-color: #ee4878;
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.50s;
+    
+    
+}
+.menuicon{
+    line-height:78px;
+    visibility:hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-menuicon{
+    display: grid;
+    visibility: hidden;
+    place-items: center;
+    
+}
+.btn{
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: xx-large;
+    padding-left: 80px;
+
+}
+.link{
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+    color: #000000;
+    font-size: xx-large;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.link:hover{
+    
+   padding-bottom: 8px;
+   transition: 0.2s;
+   color: #ee4878;
+ 
+   
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.linkbtn{
+    font-family: 'Itim', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+    display: flex;
+    position: sticky;
+    width: 95%;
+    justify-content:center;
+    height: 80px;
+    margin-right: 80px;
+    align-items: center;
+    margin-left: 80px;
+background-color:#fff;
+}
+.loginbtn{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    font-size: x-large;
+background: #fff;
+width: 100%;
+
+
+height: auto;
+   justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    color: #000000;
+    
+}
+h5{
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: normal;
+    padding: 5px;
+}
+/*css for home*/
+.home{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 1%;
+    
+    
+}
+.gif1img{
+    width: 60vh;
+    height: 40vh;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+.gif2img{
+    width: 60vh;
+    height: 40vh;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.container-home{
+    display: grid;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 1%;
+    
+}
+h2{
+    text-align: center;
+    margin-left: 20px;
+    letter-spacing: 0.2rem;
+    font-family: 'Patua One', cursive;
+    font-size: xx-large;
+    color: #ee4878;
+    font-weight: bolder;
+} 
+p{
+    text-align: center;
+    letter-spacing: normal;
+    width: 1000px;
+    font-family: 'Patua One', cursive;
+    font-size: x-large;
+    font-weight: lighter;
+
+    }
+    a{
+      
+        font-family: 'Patua One', cursive;
+        font-size: x-larger;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    /*login*/
+
+    .login{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        margin-top: 5%;
+        margin-left: 5%px;
+        }
+        .container-login{
+            display: grid;
+            align-items: center;
+            justify-content:space-around;
+            margin-top: 1%;
+            
+            
+        }
+    .loginbox{
+        display: grid;
+        place-items: center;
+        justify-content: space-around;
+        background: rgb(233, 229, 230);
+        padding: 100px 50px;
+       
+        border-radius: 50px;
+        -webkit-box-shadow: 10px 10px 42px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 42px 12px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 42px 12px rgba(0,0,0,0.75)
+    }
+ 
+   .textin{
+    display: grid;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    place-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logbtn{
+    text-decoration: none;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
+.-signin{
+    text-align: center;
+    justify-content: space-around;
+}
+.h6{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    word-spacing: 2em;
+    margin-top: 10px;
+}
+.h5{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    margin-bottom: 10px;
+   
+}
+.signup{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 3%;
+    margin-left: 5%px;
+    }
+    .container-sginup{
+        display: grid;
+        align-items: center;
+        justify-content:space-around;
+        margin-top: 5%;
+    }
+    .signupbox{
+        display: grid;
+        place-items: center;
+        justify-content: space-around;
+        background: rgb(233, 229, 230);
+        padding: 80px 80px;
+       
+        border-radius: 50px;
+        -webkit-box-shadow: 10px 10px 42px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 42px 12px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 42px 12px rgba(0,0,0,0.75)
+    }
+    .contactus{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        margin-top: 1%;
+        
+    }
+    h3{
+        text-align: center;
+        margin-left: 20px;
+        letter-spacing: 0.2rem;
+        font-family: 'Patua One', cursive;
+        font-size: 100px;
+        color: #ee4878;
+        font-weight: bolder;
+        margin-top: 5%;
+    } 
+    a{
+        text-align: center;
+        text-decoration: none;
+        color: #ee4878;
+        font-size: medium;
+        font-weight: bolder;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    }
+    .contactus{
+        display: grid;
+        place-items: center;
+
+    }
+    @media screen and (maxwidh : 320px){
+        .menuicon{
+            visibility:visible;
+        }
+        .nav-menuicon{
+            visibility: visible;
+        }
+        .navlink{
+            visibility: hidden;
+        }
+        .link{
+            visibility: hidden;
+        }
+    }
